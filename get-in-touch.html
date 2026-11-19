@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Get in touch - Growth KnowHow</title>
+<meta name="description" content="Tell us about your team and we'll put together a tailored training proposal." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/favicon-180.png" />
+  
+  <link rel="canonical" href="https://growth-knowhow.com/get-in-touch" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Growth KnowHow" />
+  <meta property="og:title" content="Get in touch - Growth KnowHow" />
+  <meta property="og:description" content="Tell us about your team and we'll put together a tailored training proposal." />
+  <meta property="og:url" content="https://growth-knowhow.com/get-in-touch" />
+  <meta property="og:image" content="https://growth-knowhow.com/assets/p-hero.jpg" />
+  <meta property="og:locale" content="en_GB" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="nav-inner">
+      <a class="brand-logo" href="index.html" aria-label="Growth KnowHow home">
+        <span class="l1">growth</span><span class="l2">knowhow</span>
+      </a>
+      <button class="menu-btn" aria-label="Menu">☰</button>
+      <nav id="nav">
+        <a href="index.html#workshops">Workshops</a>
+        <a href="why-us.html">Why us</a>
+        <a class="cta" href="get-in-touch.html">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="course-hero" style="--dot:#0fe5e3" data-screen-label="Get in touch">
+    <img class="bg" src="assets/p-contact.jpg" alt="" />
+    <div class="course-hero-inner">
+      <div class="eyebrow">Get in touch</div>
+      <h1>Let's build the right workshop for your team.</h1>
+      <p class="lede">Tell us a little about your team and what you'd like to improve, and we'll put together a tailored proposal.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" data-screen-label="Contact">
+    <div class="contact-inner">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Bring learning to <span class="em">life</span>:</h2>
+      <p class="sub">Let’s discuss what’s possible</p>
+      <form class="enquiry" name="contact" novalidate onsubmit="return handleSubmit(event)">
+        <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+        <input type="text" name="name" placeholder="Your name" required aria-label="Your name" />
+        <input type="email" name="email" placeholder="Email address" required aria-label="Email address" />
+        <input type="text" name="company" placeholder="Company" required aria-label="Company" />
+        <select name="workshop" required aria-label="Workshop of interest">
+          <option value="" disabled selected>Workshop of interest</option>
+          <option>Sales &amp; Communication Skills</option>
+          <option>Sales Performance</option>
+          <option>Agency Account Management</option>
+          <option>Internal Communication &amp; Collaboration</option>
+          <option>Remote Team Management &amp; Collaboration</option>
+          <option>Not sure yet</option>
+        </select>
+        <textarea name="message" placeholder="Tell us about your team" rows="4" required aria-label="Message"></textarea>
+        <button type="submit">Send &amp; choose a time</button>
+        <p class="form-note">We'll use these details to reply to your enquiry. See our <a href="privacy-policy.html">privacy policy</a>.</p>
+      </form>
+      <div class="form-success">Thanks! Opening the calendar so you can pick a time — we’ll be in touch shortly too.</div>
+      <p class="prefer-email">Prefer email? Reach us any time at <a href="mailto:hello@growth-knowhow.com">hello@growth-knowhow.com</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="fname">Growth KnowHow</span>
+      <a class="mail" href="mailto:hello@growth-knowhow.com">hello@growth-knowhow.com</a>
+      <a class="mail" href="privacy-policy.html">Privacy policy</a>
+      <span class="legal">© <span id="yr"></span> Growth KnowHow. All rights reserved.</span>
+      <span class="legal legal-co">Growth KnowHow is a trading name of Chameleon Brands Ltd, registered in England and Wales, company no. 12945712. Registered office: Dragon House, Princes Way, Bridgend Industrial Estate, Bridgend, CF31 3AQ. Part of <a href="https://chameleon-brands.com/">Chameleon Brands</a>.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
